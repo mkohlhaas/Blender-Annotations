@@ -1,0 +1,65 @@
+Navigation & Shortcut Keys
+
+Ctrl + , -> Edit-Preferences
+            Resolution Scale
+            Line Width
+            Developer Extras
+            Python Tooltip
+Ctrl + Mousewheel on a User Interface Element -> change value
+left click + drag on a User Interface Element -> change value
+press mousewheel + drag -> rotate scene
+Shift + press mousewheel -> shift/pan scene
+Ctrl + press mousewheel -> zoom scene
+mousewheel -> zoom scene
+Shift + B -> choose zoom area
+Ctrl + Space -> enlarge active view
+Alt + Middle Click -> change rotation point
+Numpad 0 -> camera view
+Numpad , -> zoom into selected object
+box select -> click left mouse button + drag
+b -> then click and drag to select objects
+a -> select all objects
+aa -> deselect all objects
+use numpad to select front, back, side view and rotate and zoom
+Alt + middle click and drag changes to front, back, side view
+Shift + a -> create objects
+x -> delete selected objects
+g -> (grab) to move selected objects; x,y,z -> limit movement to chosen axis
+                                      click middle mouse -> constrain to axis
+                                      Alt -> change view while moving the object
+                                      Alt + Middle click -> rotate view
+                                      Alt + Shift + Middle click -> ...
+Shift + right click -> move/place cursor
+Shift + c -> place cursor at origin & center view to cursor
+t -> show/hide tools/side panel
+Shift + Space -> transformation tools (move, scale, rotate,...)
+s -> scale selected objects; limit axis by pressing x, y, z
+r -> rotate selected objects; limit axis by pressing x, y, z
+rr -> trackball rotation on selected objects
+n -> right side panel
+Ctrl + PageUp/Down -> change workspaces
+TAB -> switch to edit mode/back to object mode
+Ctrl + j -> join selected objects
+p in Edit Mode -> separate by different criteria
+e in Edit Mode -> extrude
+1,2,3 in Edit Mode -> choose vertix, edge, face selection
+Shift + d -> duplicate
+
+Outliner & Modeling
+
+m -> move selected objects/create new collection
+h/Alt + h -> hide/unhide objects
+Shift + h -> show selected objects and hide everything else
+Alt + g -> clear location of selected objects
+Alt + r -> clear rotation of selected objects
+Alt + s -> clear scale of selected objects
+Ctrl + a -> apply location, rotation, scale, ... and make the current values the default
+g,r,s + numerical input -> move, rotate, scale by given amount
+Ctlr + r -> loop-cut, e.g. in subdivision geometry modifier
+z -> chose view (Wireframe, Solid, Material, Rendered view)
+Alt + j -> select loop in Edit Mode
+s + Z -> scale but not in z-direction
+m -> merge in Edit Mode 
+Shift + Tab -> Snap
+Ctrl + 2,3,... -> Subdivision with level 2,3,...
+Ctrl + a -> scale in Skin modifier
