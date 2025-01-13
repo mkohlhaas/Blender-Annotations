@@ -19,7 +19,7 @@ Numpad , -> zoom into selected object
 box select -> click left mouse button + drag
 b -> then click and drag to select objects
 a -> select all objects
-aa -> deselect all objects
+aa -> deselect all objects (Pref -> Keymap -> "Select All Toggles")
 use numpad to select front, back, side view and rotate and zoom
 Alt + middle click and drag changes to front, back, side view
 Shift + a -> create objects
@@ -32,18 +32,22 @@ g -> (grab) to move selected objects; x,y,z -> limit movement to chosen axis
 Shift + right click -> move/place cursor
 Shift + c -> place cursor at origin & center view to cursor
 t -> show/hide tools/side panel
+n -> right side panel
 Shift + Space -> transformation tools (move, scale, rotate,...)
 s -> scale selected objects; limit axis by pressing x, y, z
 r -> rotate selected objects; limit axis by pressing x, y, z
 rr -> trackball rotation on selected objects
-n -> right side panel
 Ctrl + PageUp/Down -> change workspaces
 TAB -> switch to edit mode/back to object mode
-Ctrl + j -> join selected objects
-p in Edit Mode -> separate by different criteria
+Ctrl + j -> join selected objects (last selected will be used as new object)
+p in Edit Mode -> separate, e.g. faces by different criteria, e.g. material, current selection, loose parts
 e in Edit Mode -> extrude
-1,2,3 in Edit Mode -> choose vertix, edge, face selection
+i in Edit Mode -> inset
+f in Edit Mode -> fill for filling vertices into edges, edges into faces, ...
+1,2,3 in Edit Mode -> select vertex, edge, face
 Shift + d -> duplicate
+Ctrl + z -> Undo
+Ctrl + Shift + z -> Redo
 
 Outliner & Modeling
 
@@ -59,7 +63,8 @@ Ctlr + r -> loop-cut, e.g. in subdivision geometry modifier
 z -> chose view (Wireframe, Solid, Material, Rendered view)
 Alt + j -> select loop in Edit Mode
 s + Z -> scale but not in z-direction
-m -> merge in Edit Mode 
+m -> merge vertices in Edit Mode 
 Shift + Tab -> Snap
 Ctrl + 2,3,... -> Subdivision with level 2,3,...
 Ctrl + a -> scale in Skin modifier
+Alt + z -> transparent view
