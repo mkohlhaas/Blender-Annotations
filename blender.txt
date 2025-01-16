@@ -12,12 +12,13 @@ Shift + press mousewheel -> shift/pan scene
 Ctrl + press mousewheel -> zoom scene
 mousewheel -> zoom scene
 Shift + B -> choose zoom area
-Ctrl + Space -> enlarge active view
-Alt + Middle Click -> change rotation point
+Ctrl + Space -> enlarge active view / maximize panel
+Alt + Middle Click -> set/change rotation point
 Numpad 0 -> camera view
 Numpad , -> zoom into selected object
 box select -> click left mouse button + drag
-b -> then click and drag to select objects
+b -> block select; then click and drag to select objects
+c -> circle select
 a -> select all objects
 aa -> deselect all objects (Pref -> Keymap -> "Select All Toggles")
 use numpad to select front, back, side view and rotate and zoom
@@ -30,10 +31,11 @@ g -> (grab) to move selected objects; x,y,z -> limit movement to chosen axis
                                       Alt + Middle click -> rotate view
                                       Alt + Shift + Middle click -> ...
 Shift + right click -> move/place cursor
+z -> pie menu: chose view (Wireframe, Solid, Material, Rendered view)
+Shift + s -> pie menu: cursor functions (cursor to world origin , to selected, selected to cursor,...)
 Shift + c -> place cursor at origin & center view to cursor
 t -> show/hide tools/side panel
 n -> right side panel
-Shift + Space -> transformation tools (move, scale, rotate,...)
 s -> scale selected objects; limit axis by pressing x, y, z
 r -> rotate selected objects; limit axis by pressing x, y, z
 rr -> trackball rotation on selected objects
@@ -48,6 +50,7 @@ f in Edit Mode -> fill for filling vertices into edges, edges into faces, ...
 Shift + d -> duplicate
 Ctrl + z -> Undo
 Ctrl + Shift + z -> Redo
+Shift + Tab -> toggle snapping feature
 
 Outliner & Modeling
 
@@ -60,7 +63,6 @@ Alt + s -> clear scale of selected objects
 Ctrl + a -> apply location, rotation, scale, ... and make the current values the default
 g,r,s + numerical input -> move, rotate, scale by given amount
 Ctlr + r -> loop-cut, e.g. in subdivision geometry modifier
-z -> chose view (Wireframe, Solid, Material, Rendered view)
 Alt + j -> select loop in Edit Mode
 s + Z -> scale but not in z-direction
 m -> merge vertices in Edit Mode 
